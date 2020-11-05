@@ -19,10 +19,10 @@ const connect = function() {
     conn.write('Name: SKS');
   });
 
-  // conn.on('connect', () => {
-  //   setInterval(() => {
+  // conn.on('data', (key) => {
+  //   //setInterval(() => {
   //     conn.write('Move: up');
-  //   }, 50)
+  //   //}, 50)
     
   // });
 
