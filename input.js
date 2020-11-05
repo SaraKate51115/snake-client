@@ -22,7 +22,17 @@ let connection;
         conn.write('Move: down');
       } else if (key === 'd') {
         conn.write('Move: right');
-      }
+      } else if (key === 'o') {
+        conn.write('Say: they')
+      } else if (key === 'k') {
+        conn.write('Say: see')
+      } else if (key === 'l') {
+        conn.write('Say: me')
+      } else if (key === ';') {
+        conn.write('Say: rollin\'')
+      } else if (key === 'p') {
+        conn.write('Say: hatin\'')
+      } 
     }
 
     handleUserInput();
